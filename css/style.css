@@ -109,3 +109,75 @@
     justify-content: space-around;
     width: 75%;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main__container {
+    width: 90%;
+}
+
+.person__title {
+    margin-top: 64px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person__title h1 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.person__title p {
+    width: 820px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+
+.person__content {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px 64px;
+}
+
+.persos__content__item {
+    width: 412px;
+    text-align: center;
+}
+
+.person__content__item__img {
+    max-width: 412px;
+    height: 396px;
+}
+
+.person__content__item__name {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.person__content__item__desc {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
