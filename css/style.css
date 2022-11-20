@@ -186,6 +186,7 @@
 }
 
 .team {
+    padding-bottom: 80px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -255,5 +256,73 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
+    color: #532C59;
+}
+
+.provide {
+    margin-top: 80px;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 104px;
+}
+
+.provide__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.provide__title h1 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.provide__title p { 
+    width: 690px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+.provide__info {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.provide__info__item {
+    width: 301px;
+}
+
+.provide__name {
+    margin-top: 12px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.provide__img {
+    margin-top: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.provide__desc {
+    margin-top: 12px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
     color: #532C59;
 }
