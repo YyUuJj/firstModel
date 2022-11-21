@@ -3,7 +3,12 @@
     padding: 0;
 }
 
+h1 {margin:0;padding:0;}
+h1 {font-size:100%;font-weight:normal;}
 
+body {
+    background: #FCFAFF;
+}
 
 .menu {
     height: 76px;
@@ -316,6 +321,8 @@
     height: 48px;
 }
 
+
+
 .provide__desc {
     margin-top: 12px;
     font-family: 'Space Grotesk';
@@ -325,4 +332,153 @@
     line-height: 20px;
     text-align: center;
     color: #532C59;
+}
+
+.comments__title h1 {
+    text-align: center;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.comments__content {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+    justify-content: center;
+}
+
+.comment__content {
+    padding: 24px 24px;
+}
+
+
+.comment__content__info {
+    display: flex;
+    align-items: center;
+}
+
+.comment__content__info__img {
+    width: 50px;
+    height: 50px;
+}
+
+.comment__content__info__name {
+    margin-left: 10px;
+}
+
+.comment__content__info__name h1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.comment__content__info__name p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.comment__content__text {
+    width: 364px;
+}
+
+.comment__content__text {
+    margin-top: 24px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+.comments__content__item {
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+}
+
+.questions {
+    margin-top: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions__text {
+    width: 412px;
+}
+
+.questions__content {
+    width: 950px;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+}
+
+.questions__text h1 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+}
+.questions__text p {
+    margin-top: 24px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+
+.questions__content__block {
+    padding: 24px 24px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+}
+
+.questions__content__block__top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.questions__content__block__question {
+    width: 308px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.questions__content__block__top img {
+    width: 24px;
+    height: 24px;
+}
+
+.answer {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+}
+
+.hide {
+    display: none;
 }
