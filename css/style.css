@@ -553,3 +553,20 @@ body {
     right: 0px;
     top: 0px;
 }
+
+.footer__text {
+    padding: 40px 0px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+footer {
+    margin-top: 80px;
+    background: #FCFAFF;
+}
